@@ -1,0 +1,66 @@
+*{ margin: 0;padding:0 ;}
+html{background-color: gray;}
+body{width: 950px; height: 1000px;margin: auto;background-color: #C5DDFA;}
+#titulo{
+    padding-bottom: 10px;
+    
+}
+.derecho{
+    background-color:black;
+    height: 940px;
+    width: 300px;
+    float: left;
+}
+.izquierdo{
+    background-color:rgb(184, 44, 184);
+    height: 940px;
+    width: 650px;
+    float: right;
+ 
+}
+#textos{
+ color: aliceblue;
+ text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    line-height: 250%;
+    text-align: center;
+}
+#posicion{
+    height: 600px;
+    width: 300px;
+    margin-top: 100px;
+}
+#Titulo{
+    text-align: center;
+}
+.cuadro{
+    background-color: white;
+    height: 280px;
+    width: 630px;
+    float: right;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.cuadro2{
+    background-color: white;
+    height: 280px;
+    width: 630px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.cuadro3{
+    background-color: white;
+    height: 280px;
+    width: 630px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+#imagen{
+    margin-left: 15px;
+}
