@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--salto de linea-->
+    <div>
+      <p> Tristes guerras <br>
+        si no es amor la empresa. <br>
+        Tristes. Tristes. </p>
+
+        <p> Tristes armas <br>
+            si no son palabras. <br>
+            Tristes. Tristes. </p>
+        
+        <p> Tristes nombres <br>
+        si no es mueren de amores. <br>
+        Tristes. Tristes. </p>
+    </div>
+
+    <!--Etiqueta span-->
+    <p><span class="personaje"> superman </span> vive en <span class="lugar"> Metropolis</span>
+        y tiene muchos poderes: <span class="superpoder"> superfuerza</span>, <span class="superpoder">supervision</span>, etc.
+    </p>
+
+    <!-- Enfasis (<em>)-->
+    <p> Es la <em>última</em> vez que te lo digo.</p>
+
+    <!--Remarcar importancia (<strong>)-->
+    <p> Acuerdate de apagar las luces y <strong>cerrar la puerta con llave</strong> al salir de casa.</p>
+
+    <!-- Comentario (<small>)-->
+    <p> PVP: $999 <small>(IVA no incluido)</small></p>
+
+    <!--Tachar informacion-->
+    <p> <s>La etiqueta &lt;s&gt; estaba desaconsejada en HTML 4</s> En HTML 5 la etiqueta &lt;s&gt; se usa para marcar informacion obsoleta</p>
+    <!-- Etiqueta para citar obras-->
+    <p>EL primer libro de Milan Kundera que leí fue <cite>La vida está en otra parte</cite>.</p>
+    <!--Etiquetaa para marcar la definicion de una palabra-->
+    <p>Un <dfn>byte</dfn> son ocho bits.</p>
+
+    <!-- Forma de etiquetar abreviaturas o acrónimos-->
+    <p>Sitúa el cursor del ratón sobre la abreviatura <abbr title="confer (compárese, veáse)">cf</abbr> para ver su significado</p>
+
+    <!-- Etiqueta para fecha y hora -->
+    <p>La recomendación HTML 5 se aprobó el <time datetime="2023-06-11">11 de junio del 2023</time>.</p>
+    <!-- Etiqueta de atajos de teclado -->
+    <p> En los navegadores, pulsando <kbd> Ctrl+t</kbd> se abre una nueva pestaña.</p>
+    <!-- Etiqueta para poner subindices-->
+    <p>2  H<sub>2</sub>+ O<sub>2</sub> &rarr; 2 H<sub>2</sub>O</p>
+    <!--Etiqueta para superíndice-->
+    <p> El último teorema de Fermat dice que la ecuación x<sup>n</sup> + y<sup>n</sup> = z<sup>n</sup> no tiene soluciones enteras para <var>x</var>, <var>y</var> y <var>z</var> cuando <var>n</var> &gt; 2.</p>
+
+    <!-- Etiqueta para tecnicismos-->
+    <p>El nombre cientifico del perro es <i>canis lupus</i>.</p>
+
+    <!--Etiqueta de atencion(estilo negritas)-->
+    <p>Polillas que se desacatan, <br>
+    <b>Nopol</b>, <b>Nopol</b>, <b>Nopol</b> las mata.</p>
+
+    <!--Etiqueta de resaltado posterior o subrayado-->
+    <p>La primera fase de la recoemndacion HTML 5 es <q>The world Wide Web's markup languaje has <mark>always</mark> been HTML</q>.</p>
+    <!--Etiqueta para poner enlaces-->
+    <p>Enlace  a la <a href="https://www.youtube.com/"> página de yutu xd</a>.</p>
+    <!--Etiqueta de suprimido-->
+    <p>Internet Explorer 4 era un navegador bastante <del>malo</del> mejorable. Internet explorer 7 cumplia mejor las recomendaciones del W3C.</p>
+    <!--Etiqueta para visualizar el nuevo texto añadido-->
+    <p>La verdad es que Microsoft podria haber mejorado antes su navegador <ins>, respetando las recomendaciones del W3C</ins>.</p>
+    <!--Etiqueta de lista ordenada-->
+    <ol>
+        <li>La libertad de usar el programa, con cualquier propósito.</li>
+        <li>La libertad de estudiar cómo funciona el programa y adaptarlo a tus necesidades.</li>
+    </ol>
+    <!--Etiqueta de lista no ordenada--> 
+    <ul>
+      <li>La libertad de distribuir copias del programa.</li>
+      <li>La libertad de mejorar el programa y hacer públicas las mejoras a los demás.</li>
+    </ul>
+    <!--Etiquetas para  hacer tablas y uso del caption-->
+    <table border="1">
+        <caption> Ejemplo de tabla</caption>
+        <tbody>
+            <tr>
+                <td></td>
+                <th>A</th>
+                <th>B</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>A1</td>
+                <td>B1</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--Uso de otras etiquetas para tablas-->
+    <table border="1">
+        <caption> Ejemplo de tabla</caption>
+        <thead>
+            <tr>
+                <th>Pais</th>
+                <th>Capital</th>
+                <th>Moneda</th>  
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Reino unido</td>
+                <td>Madrid</td>
+                <td>Euro</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Pais</th>
+                <th>Capital</th>
+                <th>Moneda</th>
+            </tr>
+        </tfoot>
+    </table>
+    <!--Formularios-->
+    <form action="ejemplo.php" method="get">
+        <p>Nombre: <input type="text" name="nombre" size="40"></p>
+        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+        <p>sexo:
+            <input type="radio" name="hm" value="h">hombre
+            <input type="radio" name="hm" value="m">mujer
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+    <!--Mas codigo de formulario(atributo required)-->
+    <p>
+        <input type="radio" name="hm" value="h" required>Hombre
+        <input type="radio" name="hm" value="m">Mujer
+    </p>
+
+    <p>
+        <input type="radio" name="edad" value="adulto" required>Adulto
+        <input type="radio" name="edad" value="menor">Menor 
+    </p>
+    <!--Atributo placeholder-->
+    <p>Apellidos:
+        <input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos">
+    </p>
+    <!--Atributos maxlength y minlength-->
+    <p>
+        Usuario: <input type="text" name="usuario" maxlength="6">
+    </p>
+    <p>contraseña: <input type="password" name="password" minlength="6"> </p>
+    <!--Atributo disabled-->
+    <input type="submit" value="Enviar" disabled>
+    <br>
+    <!--Atributo readonly-->
+    <input type="text" name="texto" placeholder="¡A que no me cambias!" readonly>
+    <br>
+    <br>
+    <!--Atributo tabindex-->
+    <input type="text" name="texto1" placeholder="Texto 1">
+    <input type="text" name="texto2" placeholder="Texto 2" tabindex="2">
+    <input type="text" name="texto3" placeholder="Texto 3" tabindex="3">
+    <!--Botones input y button-->
+    <input type="button" value="Buton xd">
+    <button type="button" style="vertical-align: middle;">
+        Este botton no hace nada xd
+    </button>
+    <!--Más codigo de botones pero con un mensaje-->
+    <input type="button" onclick="mensaje('Troleado, ya tienes un trollado xd')" value="boton">
+    <script>
+        function mensaje(texto){
+            alert(texto);
+        }
+    </script>
+    <br>
+    <!--Boton para poner numeros-->
+    Escribe un numero
+    <br>
+    <input type="number" name="number">
+   
+    <!--Buton para búsqueda-->
+    <br>
+    busqueda en :<input type="search" name="busqueda" size="40">
+    <!--numero telefonico-->
+    Numero tele <input type="tel" name="teléfono"><br>
+     <!--Poner URL-->
+    Direccion:<input type="url" name="direccion" size="40">
+    <!--Poner correo-->
+    Correo <input type="email" name="Correo" size="40">
+    <!--Fecha general-->
+    Fecha: <input type="date" name="date">
+    <!--Poner meses-->
+    Mes: <input type="month" name="month">
+    <!--Poner una hora en particular-->
+    Hora <input type="time" name="what time is?">
+    <!--Verificacion-->
+    Hola1 <input type="checkbox"  name="Casilla">
+    Casilla 2 <input type="checkbox" name="casilla" value="hola">
+
+    <!--Boton circular-->
+    Boton 1<input type="radio" name="button" value="1">
+    Button 2<input type="radio" name="button" value="2">
+    <!--otros botones-->
+    <input type="radio" name="button" value="1">Option 1
+    <input type="radio" name="button" value="2">Option 2
+    <!--Lector de color-->
+    <input type="color" name="colorElegido" value="#ff0000">
+    <!--Rango-->
+    Introduce tu rango de conocimiento
+    <input type="range" name="rango" min="0" max="5" step="0.1">
+    <!--Boton para subir archivos-->
+    <input type="file" name="file or folder">
+    <!--Imagen-->
+    Click on button<input type="image" name="punto" src="hola.jpg" alt="punto">
+    <!--Control oculto-->
+    <input type="hidden" name="nombre" value="pepito">
+    <!--Zona de comentrios o textos-->
+    <textarea name="tex+" cols="30" rows="5">¿Qué piensas bro?</textarea>
+    <!--Menu normal y con group-->
+    <select name="menu">
+        <option value="0">...</option>
+        <option value="1">uno</option>
+        <option value="2">dos</option>
+    </select>
+    <select name="menu2">
+        <option selected>...</option>
+        <optgroup label="grupo1">
+            <option value="1">opcion uno</option>
+            <option value="2">opcion dos</option>
+        </optgroup>
+        
+    </select>
+    <!--Grupos de controles-->
+    <fieldset>
+        <legend>Datos personales</legend>
+        <p>Nombre: <input type="text" name="nombre" size="30"></p>
+        <p>Edad: <input type="number" name="edad"></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Cultura general</legend>
+        <p>Capital de noruega 
+            <input type="radio" name="p1" value="1">Copehague
+            <input type="radio" name="p1" value="2">Helsinki
+            <input type="radio" name="p1" value="3">Oslo
+        </p>
+        <p>Fecha de la revolucion francesa 
+            <input type="radio" name="p2" value="1">1492
+            <input type="radio" name="p2" value="2">1789
+            <input type="radio" name="p2" value="3">1917
+        </p>
+        
+    </fieldset>
+    <!--Relacion implicita-->
+    <label> <input type="checkbox" name="casilla"> Casilla 1</label>
+
+    <label >Nombre: <input type="text" name="Casilla"></label>
+    <!--Relacion explicita-->
+    <input type="checkbox" name="casilla" id="casilla1">
+    <label for="casilla1">Casilla 1</label>
+
+    <label for="text1">Nombre:</label>
+    <input type="text" name="casilla" id="text1">
+
+    <!--Etiqueta para señalar más detalles-->
+    <p>En la pelicula de 1968...</p>
+    <details>
+        <summary>Spoiler</summary>
+        <p>En la escena final, el protagonista encuentra... nada xd</p>
+    </details>
+    <!--Etiqueta de resumen-->
+    <p>Beners-Lee creo HTML basndose en SGML.La IETF publicó la norma RFC 1866 en 1995...</p>
+    <details>
+        <ul>
+            <li>HTML: HyperText Markup Languajes</li>
+            <li>SGML: Standard Generalized Markup Languajes</li>
+            <li>IETF: Internet Engineering Task Force</li>
+        </ul>
+    </details>
+    <!--Ventana de dialogo-->
+    <dialog id="dialog-1">
+        <h1>Ventana de diálogo</h1>
+        <p>Esto es un ejemplo de ventana de diálogo</p>
+        <p>
+            <input type="button" value="Cerrar" onclick="document.getElementById('dialog-1').removeAttribute('open')">
+        </p>
+        
+    </dialog>
+    <p>
+        <input type="button" value="Muestra" onclick="document.getElementById('dialog-1').setAttribute('open','open')">
+    </p>
+    <!--Insertar un página web-->
+    <object data="ejemplo-object.html" type="text/html" style="width: 50px; height: 40px;">Error(no puede mostrarse el objeto)</object>
+    <!--insertar un video de youtube-->
+    <object data="https://youtu.be/L906Kti3gzE" type="application/x-schochwave-flash" style="width:50px ; height: 40px;">
+        <param name="movie" value="https://youtu.be/L906Kti3gzE">
+        Error xd
+    </object>
+    <!--Insertar un archivo pdf-->
+    <object data="ejemplo-pdf.pdf" type="application/pdf" style="width: 50px; height: 40px;">Error, esto solo es un ejemplo</object>
+
+
+    
+</body>
+</html>
